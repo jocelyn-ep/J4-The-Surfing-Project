@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Copier Coller de Bootstrap -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Copier coller de Font awesome  -->
+    <script
+      src="https://kit.fontawesome.com/cdbb061ec1.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Permet de relier le HTML et le CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>The Surfing Project</title>
+  </head>
+  <body>
+    <!-- Copier coller de Bootstrap - Java script il me semble -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+
+    <!-- Navbar  -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">The Surfing Project</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Accueil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Le programme</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Nos prochaines sessions
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Anglet</a></li>
+                  <li><a class="dropdown-item" href="#">Lacanau</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Nice (s'il y a une tempête de force 8)</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+
+
+      <!-- Partie photo en background  -->
+      <div class="background-surf" style="height: 400px; background-image:url(./img/surf-school-picture.jpg); background-repeat:no-repeat;background-position: center;background-size: cover; background-color: black; display:flex; text-align:center; flex-direction: column; justify-content: ;">
+        <div>">
+        <div class="text-center text-white">
+          <h1>Partez à l'aventure</h1>
+            <p>Découvrez notre école de surf en peer-learning</p>
+            <button type="button" class="btn btn-primary">
+              Je m'inscris à la prochaine session
+            </button>
+            <button type="button" class="btn btn-secondary">
+              Je découvre le programme
+            </button>
+            <!-- Astuce pour insérer 100 px -->
+            <div class="space"></div>
+        </div>
+      </div>
+
+    <!-- Pour que tout soit responsive, il faut mettre une classe container-fluid -->
+    <div class="container-fluid margin-top: 5%">
+
+    <!-- Partie grille 3x3 et logos -->
+    <div class="text-center">
+      <h2>The Surfing Project en 3 points</h2>
+    </div>
+    <!-- ligne icônes - rajouter "-3x" à la fin de la class devrait les faire grossir mais ça ne marche pas-->
+    <div class="row p-4">
+      <div class="col">
+        <div class="text-center">
+          <i class="fa-solid fa-money-bill fa-3x"></i>
+        </div>
+      </div>
+      <div class="col">
+        <div class="text-center">
+          <i class="fa-solid fa-couch fa-3x"></i>
+        </div>
+      </div>
+      <div class="col">
+        <div class="text-center">
+          <i class="fa-solid fa-people-group fa-3x"></i>
+        </div>
+      </div>
+    </div>
+    <!-- ligne titres -->
+    <div class="row p-3">
+      <div class="col">
+        <div class="text-center">
+          <h5>Pas chère</h5>
+        </div>
+      </div>
+      <div class="col">
+        <div class="text-center">
+          <h5>Relax</h5>
+        </div>
+      </div>
+      <div class="col">
+        <div class="text-center">
+          <h5>La communauté</h5>
+        </div>
+      </div>
+    </div>
+    <!-- ligne texte -->
+    <div class="row p-3">
+      <div class="col">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam saepe
+        hic commodi facere autem cupiditate, fugit expedita officia ipsa, magni
+        labore reiciendis ducimus voluptatibus praesentium esse itaque velit
+        eveniet delectus.
+      </div>
+      <div class="col">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit
+        eos repudiandae nam labore nihil? Saepe soluta eum dolorem et architecto
+        totam. Tempora minima quo deserunt ex iusto accusantium, et rem!
+      </div>
+      <div class="col">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+        ducimus praesentium porro repellendus quisquam sequi nesciunt debitis
+        nam rem beatae ea sapiente facere nemo temporibus, esse, doloremque
+        itaque hic voluptate!
+      </div>
+    </div>
+    <!-- Astuce pour insérer 100 px -->
+    <div class="space"></div>
+
+    <!-- Partie cards - grid 1x2 -->
+    <div class="text-center">
+      <h2>Témoignages</h2>
+    </div>
+
+    <div class="row p-5">
+      <div class="col mx-auto">
+        <!-- carte1 - surf  -->
+        <div class="card mx-auto" style="width: 400px">
+          <img
+            class="card-img-top"
+            src="./img/surf-beach.jpg"
+            alt="Card image"
+            style="width: 100%"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Surfing's not a sport, its a way of life, it's no hobby. It's a
+              way of looking at a that wave and saying, "Hey bud, let's party!"
+              <figcaption class="blockquote-footer">
+                <br>
+                Jeff, Avril 2019
+              </figcaption>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- carte2 - van  -->
+      <div class="col">
+        <div class="card mx-auto" style="width: 400px">
+          <img
+            class="card-img-top"
+            src="./img/surf-van.jpg"
+            alt="Card image"
+            style="width: 100%"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Grâce à TSP je fais le tour du monde avec mon van et fais dusurf !
+              Si l'expérience était à refaire, je signerais tout de suite !
+              <figcaption class="blockquote-footer">
+                <br>
+                Jean-Michel, Octobre 2018
+              </figcaption>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Astuce pour insérer 100 px -->
+<div class="space"></div>
+
+    <!-- Partie pricing -->
+    <div class="text-center">
+      <h2>Prix</h2>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center p-2">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Semaine d'essai</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">0€</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Le kiff</li>
+              <li>À Bali</li>
+              <li>Pendant 1 semaine</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">
+              S'inscrire
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Early Bird</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              $15<small class="text-muted fw-light">/mo</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Le kiff</li>
+              <li>À Bali</li>
+              <li>Pendant 1 semaine</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">
+              S'inscrire
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-white bg-primary border-primary">
+            <h4 class="my-0 fw-normal">En trois fois</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              7€<small class="text-muted fw-light">/mo</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Le kiff</li>
+              <li>À Bali</li>
+              <li>Pendant 1 semaine</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">
+              S'inscrire
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Astuce pour insérer 100 px -->
+<div class="space"></div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid">
+        <p class="text-muted"> © Bootstrapp, et The Surfing Project</p>
+    </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+/* 
+
+.container {
+  border: 1px solid red; 
+}
+
+.row {
+  border: 1px dotted green;
+}
+
+.col {
+  border : 3px dotted blue;
+}
+ */
+
+.background-surf {
+  background: url(./img/surf-school-picture.jpg) center/cover;
+  background-size: cover;
+  height: 500px;
+  padding-top: 100px;
+}
+
+.space { margin-top: 100px; }
+
+
+footer {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
